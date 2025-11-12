@@ -8,7 +8,6 @@
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -51,9 +50,10 @@ article {
     position: absolute;
     top: 400px;
     width: 97%;
+    opacity: 0.9;
     padding: 16px;
     color: #fff;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
 }
 
 
