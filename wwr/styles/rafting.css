@@ -69,15 +69,14 @@ nav, p, section, article {
 nav ul {
     display: flex;
     gap: 20px;
-
 }
 
 
 footer {
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center
 }
 
 
@@ -95,6 +94,13 @@ section p {
 
 .gallery .item {
    text-align: center;
+}
+
+.icon {
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .socialmedia a {
