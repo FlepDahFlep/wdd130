@@ -95,10 +95,11 @@ nav ul li a {
 }
 
 footer {
-    padding: 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center
+    margin-top: 40px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 
@@ -121,8 +122,8 @@ section p {
 .icon {
    padding: 20px;
    display: flex;
-   justify-content: space-between;
-   align-items: center;
+   width: 32px;
+   margin: 0 10px;
 }
 
 .socialmedia a {
