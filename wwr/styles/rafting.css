@@ -23,7 +23,23 @@ header, main, footer {
 }
 
 header, nav {
-    display: grid;
+   display: grid;
+   grid-template-columns: 120px 1fr 1fr;
+   align-items: center;
+}
+
+header {
+     padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
 }
 
 h1, h2 {
@@ -67,10 +83,16 @@ nav, p, section, article {
 }
 
 nav ul {
+    list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
 
 footer {
     padding: 20px;
