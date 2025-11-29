@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Exciting Expedition</title>
+    <title>Contact Us and the rafting company</title>
     <meta name="description" content="Experience a thrilling and safe rafting adventures.">
     <meta name="author" content="Jan Lander Fernandez">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -37,28 +37,40 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9084.640330590333!2d123.37193355986318!3d9.804576612236131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1764382307769!5m2!1sen!2sph"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <form>
                 <label>Name</label>
-                <input type="text" placeholder="Please type here...">
+                <input type="text" id="fullname" name="fullname" placeholder="Your name please...">
 
                 <label>Email</label>
-                <input type="email" placeholder="Please type here...">
+                <input type="email" id="email" name="email" placeholder="Your email please...">
 
                 <label>Message Purpose</label>
                 <div class="radios">
-                    <label><input type="radio" name="purpose"> General Inquiry</label>
-                    <label><input type="radio" name="purpose"> Reservation Question</label>
-                    <label><input type="radio" name="purpose"> Website Suggestion</label>
-                </div>
-                <label>Message</label>
-                <textarea placeholder="Please type here..."></textarea>
+                    <label for="general">
+                        <input type="radio" id="general" name="purpose" value="general">
+                        General Inquiry
+                    </label>
 
-                <label>
-                    <input type="checkbox"> Please subscribe to our monthly newsletter.
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Please type here..."></textarea>
+
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe to our monthly
+                    newsletter.
                 </label>
 
                 <button type="submit">Get in Touch!</button>
@@ -78,22 +90,24 @@
         <p>
             © 2025 | Exciting Expeditions | Jan Lander Fernandez
         </p>
-        <div class="icon">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="Facebook Icon" width="40">
-            </a>
-        </div>
-        <div class="icon">
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="Instagram Icon" width="40">
-            </a>
-        </div>
-        <div class="icon">
-            <a href="https://youtube.com">
-                <img src="images/youtube.png" alt="Youtube Icon" width="40
-                ">
-            </a>
-        </div>
+        <nav class="socialmedia">
+            <div class="icon">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook Icon" width="40">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Instagram Icon" width="40">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://youtube.com">
+                    <img src="images/youtube.png" alt="Youtube Icon" width="40
+                            ">
+                </a>
+            </div>
+        </nav>
     </footer>
 </body>
 
