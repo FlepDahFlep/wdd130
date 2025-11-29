@@ -15,7 +15,7 @@
         <div class="container header-content">
             <img src="images/z-excitingexpedition.jpg" alt="Exciting Expedition Logo" class="logo">
             <nav>
-                <ul class="socialmedia">
+                <ul class="socialmedia-boxes">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="trips.html">Trips</a></li>
@@ -34,6 +34,7 @@
             </p>
         </section>
         <section class="contact-section">
+            <h2>Contact Us</h2>
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9084.640330590333!2d123.37193355986318!3d9.804576612236131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1764382307769!5m2!1sen!2sph"
@@ -42,10 +43,10 @@
             </div>
 
             <form>
-                <label>Name</label>
+                <label for="fullname">Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Your name please...">
 
-                <label>Email</label>
+                <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your email please...">
 
                 <label>Message Purpose</label>
@@ -69,7 +70,7 @@
                 <textarea id="message" name="message" placeholder="Please type here..."></textarea>
 
                 <label for="newsletter">
-                    <input type="checkbox" id="newsletter" name="newsletter"> Please subscribe to our monthly
+                    <input type="checkbox" id="newsletter" name="newsletter">Please subscribe to our monthly
                     newsletter.
                 </label>
 
@@ -79,9 +80,18 @@
         <section class="employees">
             <h2>We Are Here to Serve You!</h2>
             <div class="employee-boxes">
-                <div class="employee">Employee A</div>
-                <div class="employee">Employee B</div>
-                <div class="employee">Employee C</div>
+                <div class="employee">
+                    <img src="images/employee1.jpg" alt="Employee 1" width="150">
+                    <p>Bronya Zaychik</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.jpg" alt="Employee 2" width="150">
+                    <p>Kiana Kaslana</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.jpg" alt="Employee 3" width="140">
+                    <p>Elysia</p>
+                </div>
             </div>
         </section>
     </main>
@@ -103,8 +113,7 @@
             </div>
             <div class="icon">
                 <a href="https://youtube.com">
-                    <img src="images/youtube.png" alt="Youtube Icon" width="40
-                            ">
+                    <img src="images/youtube.png" alt="Youtube Icon" width="40">
                 </a>
             </div>
         </nav>
