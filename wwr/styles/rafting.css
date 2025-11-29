@@ -16,17 +16,16 @@ header {
     background: #6DC3BB;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .header-content {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    width: 80px;
-    height: 60px;
-    background: #ddd;
+    gap: 40px;
 }
 
 .logo {
@@ -90,7 +89,6 @@ button {
     border: none;
 }
 
-
 footer {
     background: #6DC3BB;
     padding: 20px;
@@ -98,6 +96,11 @@ footer {
     justify-content: center;
 }
 
+footer p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 section p {
     text-align: center;
@@ -132,32 +135,34 @@ section p {
     padding: 20px;
 }
 
-.employees-boxes {
+.employee-boxes {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.employee {
+.employee img {
     width: 150px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    border-radius: 6px;
+}
+
+.employee {
+     text-align: center;
 }
 
 .radios {
     display: flex;
     flex-direction: row;
-    gap: 5px;
-    margin: 10px;
-    padding: 10px;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 15px;
 }
 
 .radios label {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
 }
 
 .gallery {
