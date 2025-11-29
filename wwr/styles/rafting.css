@@ -13,49 +13,35 @@
 }
 
 body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
 }
 
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
-header, nav {
-   display: grid;
-   grid-template-columns: 120px 1fr 1fr;
-   align-items: center;
-}
 
 header {
-     padding: 20px 0;
+    background: #264653;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80px;
+    height: 60px;
+    background: #ddd;
 }
 
 .logo {
     height: 60px;
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color)
-}
-
 h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
 }
 
 h2 {
@@ -88,18 +74,41 @@ nav ul {
     gap: 30px;
 }
 
-nav ul li a {
+nav a {
+    margin: 0 10px;
     text-decoration: none;
-    font-weight: bold;
-    color: #333;
+    color: black;
 }
 
-footer {
-    margin-top: 40px;
-    padding: 20px 0;
+form {
+    width: 300px;
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background: #d4d4d4;
+    border: none;
+}
+
+
+footer {
+    background: #264653;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -107,6 +116,58 @@ section p {
     text-align: center;
 }
 
+.company-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.map {
+    width: 350px;
+    display: flex;
+    justify-content: left;
+}
+
+.employees {
+    text-align: center;
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+.employees-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.employee {
+    width: 150px;
+    height: 120px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radios {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.radios label {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
 
 .gallery {
    display: flex;
@@ -120,10 +181,9 @@ section p {
 }
 
 .icon {
-   padding: 20px;
-   display: flex;
-   width: 32px;
-   margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
 }
 
 .socialmedia a {
