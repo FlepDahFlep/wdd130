@@ -287,6 +287,15 @@ section p {
   border-radius: 8px;
 }
 
+.hero-index {
+    background-color: #ABE0F0;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 2rem;
+    font-size: medium;
+}
+
 .hero img {
     width: 100%;
     display: block;
@@ -304,7 +313,7 @@ section p {
 .newsletter form {
     max-width: 300px;    
     margin: 0 auto;       
-    text-align: left;    
+    text-align: left;
 }
 
 .cta {
