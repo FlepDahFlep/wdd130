@@ -188,21 +188,94 @@ section p {
     gap: 10px;
 }
 
-.hero {
-    position: relative;
-}
-
 .hero article {
     position: absolute;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    display: block;
+}
+.hero-message {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+.newsletter form {
+    max-width: 300px;    
+    margin: 0 auto;       
+    text-align: left;    
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin: 20px auto;
+    background: #0077cc;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cta-btn:hover {
+    background: #005fa3;
+}
+
+.grid-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+    text-align: center;
+}
+.grid-info img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trips-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.trip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.trip img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
 }
